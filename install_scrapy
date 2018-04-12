@@ -1,0 +1,13 @@
+sudo pip install scrapy
+sudo pip install goose-extractor
+sudo pip install textblob
+sudo pip install service_identity
+sudo pip install ScrapyElasticSearch
+# scrapy: 'module' object has no attribute 'OP_SINGLE_ECDH_USE'
+# Simply did
+#
+#sudo apt-get install libssl-dev
+#
+#then
+#
+#pip install pyopenssl --upgrade
